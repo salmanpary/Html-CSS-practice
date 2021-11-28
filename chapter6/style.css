@@ -1,0 +1,52 @@
+.flex-container{
+    display: flex;
+    border: 2px solid black;
+    flex-direction: horizontal;
+    /* justify-content:flex-end; */
+    justify-content: space-evenly;
+    height: 45vh;
+    align-items:flex-end ;
+    flex-wrap: wrap;
+    /* flex-flow: column wrap; */
+
+
+
+
+}
+.fitem1{
+    background-color: red;
+    border: 2px solid black;
+    padding :12px;
+    margin:12px;
+    width: 25px;
+    height: 25px;
+    order: 2;
+    
+}
+.fitem2{
+    background-color: blue;
+    border: 2px solid black;
+    padding :12px;
+    margin:12px;
+    width: 25px;
+    height: 25px;
+    order: 4;
+}
+.fitem3{
+    background-color: aqua;
+    border: 2px solid black;
+    padding :12px;
+    margin:12px;
+    width: 25px;
+    height: 25px;
+    order: 1;
+}
+.fitem4{
+    background-color: darkblue;
+    border: 2px solid black;
+    padding :12px;
+    margin:12px;
+    width: 25px;
+    height: 25px;
+    order: 3;
+}
