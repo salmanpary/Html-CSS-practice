@@ -1,0 +1,15 @@
+.container{
+    background-color: red;
+    height: 700px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 130px 130px 130px;
+    grid-template-rows: 130px 130px 130px;
+
+}
+.item
+{
+    background-color: aqua;
+    height: 122px;
+    width: 122px;
+}
